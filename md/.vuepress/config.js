@@ -1,7 +1,9 @@
 module.exports = {
   dest: "docs",
   title: "Lost",
+  base: "/mynote/",
   description: "Just playing around",
+  // theme: "@vuepress/theme-default",
   themeConfig: {
     logo: "/logo.png",
     editLinks: false,
