@@ -1,14 +1,14 @@
 module.exports = {
-  dest: "dist",
-  title: "Hello VuePress",
+  dest: "docs",
+  title: "Lost",
   description: "Just playing around",
   themeConfig: {
     logo: "/logo.png",
     editLinks: false,
-    dest: "docs",
     nav: [
       { text: "note", link: "/note/" },
       { text: "blog", link: "/blog/" },
+      { text: "resume", link: "/resume/" },
       {
         text: "Languages",
         ariaLabel: "Language Menu",
@@ -51,10 +51,10 @@ module.exports = {
         "鉴权",
         "JavaScript_实现面向对象",
         "JavaScript_闭包与 WeakMap 对象实现对象的私有属性",
-        "myQuery",
-        "简历"
+        "myQuery"
       ],
-      "/": ["/note/", "/blog/"]
+      "/resume/": ["简历"],
+      "/": ["/note/", "/blog/", "/resume/"]
     }
   }
 };

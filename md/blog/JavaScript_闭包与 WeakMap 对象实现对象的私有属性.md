@@ -1,3 +1,5 @@
+# JavaScript\_闭包与 WeakMap 对象实现对象的私有属性
+
 ```JavaScript
 let Parent = (() => {
   let data = new WeakMap();
