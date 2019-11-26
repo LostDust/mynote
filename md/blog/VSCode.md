@@ -1,0 +1,12 @@
+
+
+
+
+Formatting
+
+
+
+
+
+"prettier.singleQuote": true,
+

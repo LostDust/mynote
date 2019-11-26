@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button onclick="todo(this)">ClickMe</button>
+    <script>
+      window.addEventListener(
+        "todoing",
+        e => {
+          console.log(e.detail.code);
+        },
+        false
+      );
+
+      function todo(self) {
+        const myEvent = new CustomEvent("todoing", {
+          detail: { code: self.innerHTML }
+        });
+        window.dispatchEvent(myEvent);
+      }
+    </script>
+  </body>
+</html>
