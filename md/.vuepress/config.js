@@ -1,6 +1,12 @@
 module.exports = {
   dest: "docs",
   title: "Lost",
+  head: [
+    [
+      "link",
+      { rel: "shortcut icon", type: "image/x-icon", href: `./favicon.ico` }
+    ]
+  ],
   base: "/mynote/",
   description: "Just playing around",
   // theme: "@vuepress/theme-default",

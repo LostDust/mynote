@@ -14,7 +14,8 @@
 
 ### express
 
-- post 请求中间件：
+- *contentType: www-form-urlencoded*: `express.urlencoded({ extended: true })`;
+- *contentType: application/json*: `express.json()`;
 
 ## cookie
 
