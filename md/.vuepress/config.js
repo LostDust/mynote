@@ -4,7 +4,7 @@ module.exports = {
   head: [
     [
       "link",
-      { rel: "shortcut icon", type: "image/x-icon", href: `./favicon.ico` }
+      { rel: "shortcut icon", type: "image/x-icon", href: `/favicon.ico` }
     ]
   ],
   base: "/mynote/",
